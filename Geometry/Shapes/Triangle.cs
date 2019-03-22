@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using VectorAndPoint.ValTypes;
 
-namespace Geometry
+namespace Geometry.Shapes
 {
     public class Triangle : Polygon
     {

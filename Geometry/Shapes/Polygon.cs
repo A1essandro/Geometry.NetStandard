@@ -3,7 +3,7 @@ using System;
 using VectorAndPoint.ValTypes;
 using System.Linq;
 
-namespace Geometry
+namespace Geometry.Shapes
 {
     public class Polygon : Shape
     {

@@ -2,7 +2,7 @@ using System;
 using VectorAndPoint;
 using VectorAndPoint.ValTypes;
 
-namespace Geometry
+namespace Geometry.Shapes
 {
     public class Circle : Shape, ILength
     {

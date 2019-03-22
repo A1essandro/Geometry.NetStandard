@@ -1,5 +1,6 @@
 using System;
 using Geometry;
+using Geometry.Shapes;
 using VectorAndPoint.ValTypes;
 using Xunit;
 

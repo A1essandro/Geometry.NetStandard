@@ -1,7 +1,7 @@
 using System;
 using VectorAndPoint.ValTypes;
 
-namespace Geometry
+namespace Geometry.Shapes
 {
     public class Square : Quadrangle
     {

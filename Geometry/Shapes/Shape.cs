@@ -1,6 +1,6 @@
 using VectorAndPoint.ValTypes;
 
-namespace Geometry
+namespace Geometry.Shapes
 {
     public abstract class Shape : IArea
     {
