@@ -22,6 +22,18 @@ namespace Tests
         }
 
         [Fact]
+        public void ViaEquationTest()
+        {
+            var equation = new CircleEquation(1, -1, 2);
+
+            var circle = new Circle(equation);
+
+            Assert.Equal(2, circle.Radius);
+            Assert.Equal(1, circle.Center.X);
+            Assert.Equal(-1, circle.Center.Y);
+        }
+
+        [Fact]
         public void PointPositionTest()
         {
             var center = new Point(0, 0);

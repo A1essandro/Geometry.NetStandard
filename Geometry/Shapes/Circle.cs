@@ -15,6 +15,12 @@ namespace Geometry.Shapes
 
         public override double Perimeter => Length;
 
+        public Circle(CircleEquation eq)
+        {
+            Center = new Point(eq.A, eq.B);
+            Radius = eq.R;
+        }
+
         public Circle(Point center, double radius)
         {
             Radius = radius;
